@@ -1,8 +1,8 @@
 /* Mobile devices  */
 @media screen and (max-width: 576px) {
-    body{
-        font-size: 10px;
-    }
+  body {
+    font-size: 10px;
+  }
   .products-img-container img {
     width: 100%;
     object-fit: cover;
@@ -11,25 +11,22 @@
   .banner-section {
     flex-direction: column-reverse;
     margin: 10px 20px;
-  }
-  .banner-section,
-  .products-section {
     align-items: center;
     justify-content: center;
   }
   .products-section,
-  .text-container {
-    align-items: center;
-    justify-content: center;
+  .text-container, .products-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .navbar{
+  .navbar {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .nav-links{
+  .nav-links {
     flex-direction: column;
   }
 }
