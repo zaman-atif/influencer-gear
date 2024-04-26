@@ -1,1 +1,10 @@
 /* Mobile devices  */
+@media screen and (max-width: 576px){
+    .products-img-container img{
+        width: 100%;
+    }
+    .products-section{
+        flex-direction: column-reverse;
+        margin: 10px 20px;
+    }
+}
