@@ -1,5 +1,5 @@
 /* Google Fonts  */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900");
 /* Universal selector  */
 * {
   margin: 0;
@@ -17,7 +17,7 @@
 .navbar h3 {
   color: rgb(58, 58, 58);
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .nav-links {
@@ -29,15 +29,15 @@
   margin-right: 36px;
   color: rgb(58, 58, 58);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 .nav-links li {
   list-style-type: none;
 }
-.fa-solid{
+.fa-solid {
   margin-right: 36px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 /* Banner styles  */
 .banner-section {
@@ -55,13 +55,13 @@
 .banner-title {
   color: rgb(58, 58, 58);
   font-family: Poppins;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
 }
 .banner-description {
   color: rgb(58, 58, 58);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   margin-top: 1rem;
 }
@@ -72,7 +72,7 @@
   padding: 10px 24px;
   color: rgb(255, 255, 255);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   margin-top: 1rem;
 }
@@ -97,6 +97,60 @@ hr {
     rgba(192, 204, 218, 0.1) 100%
   );
 }
+/* Popular Collections styles  */
+.popular-collections {
+  max-width: 1047px;
+  margin: 70px auto;
+}
+.popular-collections > h2 {
+  margin-bottom: 30px;
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.card {
+  border-radius: 5px;
+
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 14px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-title {
+  color: rgb(24, 25, 31);
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.card-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card-description {
+  color: rgb(120, 120, 133);
+  font-family: Inter;
+  font-size: 0.875rem;
+}
+.rating {
+  color: rgb(94, 99, 102);
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
 /* Featured Section styles  */
 .products-section {
   display: flex;
@@ -110,7 +164,7 @@ hr {
   background: rgb(224, 44, 109);
   color: rgb(255, 255, 255);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   padding: 10px 24px;
   border: 0;
@@ -119,16 +173,17 @@ hr {
 .products-title {
   color: rgb(10, 8, 38);
   font-family: Poppins;
-  font-size: 38px;
+  font-size: 2.375rem;
   font-weight: 700;
 }
 .products-description {
   color: rgb(108, 108, 108);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   margin-top: 16px;
 }
+
 /* Footer styles  */
 .footer {
   max-width: 1440px;
@@ -147,7 +202,7 @@ hr {
 .footer p {
   color: rgb(217, 219, 225);
   font-family: Manrope;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 
@@ -157,7 +212,6 @@ hr {
   border-radius: 50%;
   margin-right: 1rem;
   margin-top: 10px;
-  font-size: 32px;
+  font-size: 2rem;
   border: 10px solid black;
-  
 }

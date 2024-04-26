@@ -1,7 +1,7 @@
 /* Mobile devices  */
 @media screen and (max-width: 576px) {
-  body {
-    font-size: 10px;
+  html {
+    font-size: 12px;
   }
   .products-img-container img {
     width: 100%;
@@ -28,5 +28,9 @@
   }
   .nav-links {
     flex-direction: column;
+  }
+  .card-container{
+    margin: 0 15px;
+    grid-template-columns: 1fr;
   }
 }
